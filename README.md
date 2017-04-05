@@ -12,7 +12,7 @@ This is a repository for storing useful templates for Latex documents. The templ
 ### Prerequisites
 
 Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
-- Install all packages to ensure compatability
+Note: Install all packages to ensure compatability
 
 ## Built With
 
