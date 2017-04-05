@@ -11,9 +11,11 @@ The templates include:
 
 ## Prerequisites
 ### For Debian or Ubuntu:
-1.Tex Live - Install Tex Live via Terminal: `apt-get install texlive` or for a full tex live install: `apt-get install texlive-full`
+* Tex Live
+  * Install Tex Live via Terminal: `apt-get install texlive` or for a full tex live install: `apt-get install texlive-full`
 
-2. A Tex editor - Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
+* A Tex editor
+  * Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
 
 ## Built With
 
