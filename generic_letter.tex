@@ -1,22 +1,16 @@
 
-%Classes & packages:
+%Preamble: Classes & packages
 \documentclass{letter}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{nopageno}
 \usepackage[english]{babel}
-
 \RequirePackage{hyperref}
 \usepackage{lipsum} 
-
-%Packages below related to european character support:
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-
-%Paragraph spacing
-\usepackage{parskip}
+\usepackage[T1]{fontenc} %Related to european character support
+\usepackage{lmodern} %Related to european character support
+\usepackage{parskip} %Enables auto paragraph separation
 
 \begin{document}
-
 
 \begin{flushright}
 %Sender Address:
@@ -37,7 +31,6 @@ their address - line 2\\
 \href{tel:55555555}{+5 555 55 55}\\
 \href{mailto:email@domain.com}{email@domain.com}
 
-
 \vspace*{4\baselineskip}
 
 \textbf{Subject:} the subject 
@@ -45,19 +38,15 @@ their address - line 2\\
 \vspace*{2\baselineskip}
 
 %Content:
-
-
-Dear Addressee,\par
+Dear Addressee,
 
 \lipsum[1-2]
-
 \begin{itemize}
 	\item Example 1
 	\item Example 2
 	\item Example 3
 	\item Example 4
 \end{itemize}
-
 \lipsum[4]
 
 \vspace*{2\baselineskip}
