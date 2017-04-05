@@ -1,0 +1,70 @@
+
+%Classes & packages:
+\documentclass{letter}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{nopageno}
+\usepackage[english]{babel}
+
+\RequirePackage{hyperref}
+\usepackage{lipsum} 
+
+%Packages below related to european character support:
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+%Paragraph spacing
+\usepackage{parskip}
+
+\begin{document}
+
+
+\begin{flushright}
+%Sender Address:
+Your Name\\
+Your address - line 1\\
+Your address - line 2\\
+\href{tel:55555555}{+5 555 55 55}\\
+\href{mailto:email@domain.com}{email@domain.com}
+\end{flushright}
+
+\vspace*{2\baselineskip}
+
+\begin{flushleft}
+%Recipient Address:
+\textbf{Recipient name}\\
+their address - line 1\\
+their address - line 2\\
+\href{tel:55555555}{+5 555 55 55}\\
+\href{mailto:email@domain.com}{email@domain.com}
+
+
+\vspace*{4\baselineskip}
+
+\textbf{Subject:} the subject 
+
+\vspace*{2\baselineskip}
+
+%Content:
+
+
+Dear Addressee,\par
+
+\lipsum[1-2]
+
+\begin{itemize}
+	\item Example 1
+	\item Example 2
+	\item Example 3
+	\item Example 4
+\end{itemize}
+
+\lipsum[4]
+
+\vspace*{2\baselineskip}
+
+Yours sincerely,
+
+Your name
+
+\end{flushleft}
+\end{document}
