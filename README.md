@@ -6,7 +6,8 @@ This is a repository for storing useful templates for Latex documents. The templ
 
 ## Getting Started
 
-Paste the tex code directly into your editor and run.
+1. Open a template file from this repository (either on your computer or directly from Github.com)
+2. Copy and Paste the tex code directly into your Tex editor and run
 
 ### Prerequisites
 
