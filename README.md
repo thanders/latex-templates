@@ -1,7 +1,8 @@
 # Latex-Templates
 
-This is a repository for storing useful templates for Latex documents. The templates include:
+This is a repository for storing useful templates for Latex documents.
 
+The templates include:
 * **generic_letter.tex** - A standard single page letter
 
 ## Getting Started
