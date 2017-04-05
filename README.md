@@ -1,6 +1,8 @@
 # Latex-Templates
 
-This is a repository for storing useful templates for Latex documents.
+This is a repository for storing useful templates for Latex documents. The templates include:
+
+* **generic_letter.tex** - A standard single page letter
 
 ## Getting Started
 
@@ -17,4 +19,4 @@ Download and install a Tex editor. A list of editors can be found here: https://
 
 ## Authors
 
-* **thanders** - *Initial work* - [thanders](https://github.com/thanders)
+* **thanders** - [thanders](https://github.com/thanders)
