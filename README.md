@@ -21,4 +21,4 @@ Download and install a Tex editor. A list of editors can be found here: https://
 
 ## Authors
 
-* **thanders** - [thanders](https://github.com/thanders)
+* **[thanders](https://github.com/thanders)**
