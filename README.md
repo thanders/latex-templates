@@ -17,6 +17,11 @@ The templates include:
 * A Tex editor
   * Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
 
+## Screenshots
+### generic_letter.tex:
+![Generic_letter.tex](/images/generic_letter.png)
+Format: ![Alt Text](url)
+
 ## Built With
 
 * [Texmaker](http://www.xm1math.net/texmaker/) - The Tex editor that I used
