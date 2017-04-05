@@ -10,9 +10,10 @@ This is a repository for storing useful templates for Latex documents. The templ
 2. Copy and Paste the tex code directly into your Tex editor and run
 
 ### Prerequisites
+For Debian or Ubuntu:
+Install Tex Live via Terminal: apt-get install texlive
 
 Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
-Note: Install all packages to ensure compatability
 
 ## Built With
 
