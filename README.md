@@ -19,8 +19,7 @@ The templates include:
 
 ## Screenshots
 ### generic_letter.tex:
-![Generic_letter.tex](/images/generic_letter.png)
-Format: ![Alt Text](url)
+![Generic_letter.tex](/images/screenshot_GL.png)
 
 ## Built With
 
