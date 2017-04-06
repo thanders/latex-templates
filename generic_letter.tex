@@ -4,39 +4,44 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage{nopageno}
 \usepackage[english]{babel}
-\RequirePackage{hyperref}
 \usepackage{lipsum} 
 \usepackage[T1]{fontenc} %Related to european character support
 \usepackage{lmodern} %Related to european character support
 \usepackage{parskip} %Enables auto paragraph separation
-
+\usepackage{color}
+\usepackage[colorlinks = true,urlcolor  = blue]{hyperref}
 \signature{Your name}
 
 \begin{document}
 
 
-\begin{flushright}
+\begin{flushleft}
 %Sender Address:
 Your Name\\
-Your address - line 1\\
-Your address - line 2\\
+301 Cobblestone Way\\
+Postal code, City, Country\\
 \href{tel:55555555}{+5 555 55 55}\\
 \href{mailto:email@domain.com}{email@domain.com}
-\end{flushright}
+
 
 \vspace*{2\baselineskip}
 
-\begin{flushleft}
+
 %Recipient Address:
 \textbf{Recipient name}\\
-their address - line 1\\
-their address - line 2\\
+301 Cobblestone Way\\
+Postal code, City, Country\\
 \href{tel:55555555}{+5 555 55 55}\\
 \href{mailto:email@domain.com}{email@domain.com}
+\end{flushleft}
 
 \vspace*{4\baselineskip}
+\begin{flushright}
+\today
+\end{flushright}
 
-\textbf{Subject:} the subject 
+\begin{flushleft}
+\textbf{Subject: the subject}
 
 \vspace*{2\baselineskip}
 
@@ -54,7 +59,7 @@ Dear Addressee,
 \lipsum[4]
 \vspace*{2\baselineskip}
 
-\closing{Yours Sincerely,}
+\closing{Yours Sincerely}
 
 \end{flushleft}
 
