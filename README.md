@@ -1,10 +1,9 @@
 # Latex-Templates
 
-This is a repository for storing useful templates for Latex documents.
+This is a repository for storing templates of Latex documents. Each tex file is a unique template that has all the code required to run (assuming you have Latex fully installed).
 
-The templates include:
-* **generic_letter.tex** - A standard single page letter
-
+* **letter.tex** - A template for a single page letter (Can be run using the Latex tex engine)
+* **cv.tex** - A template for a CV (Requires using the XeLatex tex engine)
 ## Getting Started
 1. Open a template file from this repository (either on your computer or directly from Github.com)
 2. Copy and Paste the tex code directly into your Tex editor and run
