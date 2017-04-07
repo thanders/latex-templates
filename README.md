@@ -18,9 +18,9 @@ The templates include:
   * Download and install a Tex editor. A list of editors can be found here: https://en.wikipedia.org/wiki/Comparison_of_TeX_editors
 
 ## Screenshots
-### generic_letter.tex:
+### letter.tex:
 ![Generic_letter.tex](/images/screenshot_GL.png)
-### CV.tex:
+### cv.tex:
 ![CV.tex](/images/screenshot_CV.png)
 
 ## Built With
