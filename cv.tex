@@ -1,0 +1,126 @@
+%Classes & packages:
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage{sectsty}
+\setlength{\parindent}{0pt}
+\RequirePackage[margin=1.25cm]{geometry}
+\usepackage{fontawesome}
+\usepackage[colorlinks = true,urlcolor  = blue]{hyperref}
+
+%Communication Symbols:
+
+\usepackage{wasysym}
+ 
+\usepackage{multicol}
+\usepackage{titlesec}
+%Titlesec settings for font size/spacing:
+\titlespacing\section{0pt}{16pt}{2pt}
+\titlespacing\subsection{0pt}{6pt}{2pt}
+\titlespacing\subsubsection{0pt}{0pt}{2pt}
+
+%Packages below related to european character support:
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\setcounter{secnumdepth}{-1}
+
+\RequirePackage{hyperref,needspace, marvosym, xcolor}
+
+%Define colors and sectioning:
+\definecolor{red_section}{HTML}{8C1515}
+\sectionfont{\color{red_section}}
+\subsectionfont{\normalfont\itshape}
+\subsubsectionfont{\bf}
+
+\usepackage{enumitem}
+
+\begin{document}
+\begin{center}\large Your Name\end{center}
+
+\begin{multicols}{2}
+
+\section{Contact Info}
+
+%Booktabs tables require XeLatex:
+
+\begin{tabular}{ll}
+
+\faAt & \href{mailto:email@domain.com}{email@domain.com}\smallskip \\
+\faPhone & \href{tel:+15555555555}{+1(555)555-55-55}\smallskip \\
+\faEnvelopeO  & City, Country\smallskip \\
+\faGlobe & Citizenships or work permits \smallskip \\
+\faClockO & Your availability \smallskip \\
+
+\vspace*{\fill}
+\end{tabular}
+
+\section{Education}
+\textbf{Degree name}\\
+Name of school or university \textbf{(1989-1990)}\\
+\textit{City, State, Country}\\
+
+\textbf{Degree name}\\
+Name of school or university \textbf{(1982-1985)}\\
+\textit{City, State, Country}\\
+\end{multicols}
+
+
+
+%Summary Section:
+\section{Summary}
+Write a high level summary about who you are and what you are looking for.\par
+\medskip
+Relevant skills and expertise:
+  		\begin{itemize}[noitemsep,nolistsep]
+			\item Example 1
+			\item Example 2
+		\end{itemize}\par
+
+\section{Work Experience}
+\subsection{Company Name {\normalfont -- city, country} \hfill June -- September 1986}
+{\bfseries Position title} (duration) -- Description:
+  		\begin{itemize}[noitemsep,nolistsep]
+   		\item Example 1
+  		\item Example 2
+		\end{itemize}
+
+\subsection{Company Name {\normalfont -- city, country}  \hfill January -- April 1986}
+{\bfseries Position title} (duration) -- Description:
+  		\begin{itemize}[noitemsep,nolistsep]
+   		\item Example 1
+  		\item Example 2
+		\end{itemize}
+
+\section{Volunteer Experience}
+\subsection{Company Name - city, country \hfill June -- September 1986}
+Description
+
+\begin{multicols}{2}
+\section{Communication Skills}
+\begin{tabular}{rl}
+{Language 1} & Native speaker\\
+{Language 2} & Level\\
+{Language 3} & Level\\
+\end{tabular}
+
+\vspace*{\fill}
+
+\section{Software Skills}
+\begin{tabular}{rl}
+{Category 1} & Skill 1, skill 2, skill 3\\
+{Category 2} & Skill 1, skill 2, skill 3\\
+{Category 3} & Skill 1, skill 2, skill 3\\
+\vspace*{\fill}
+\end{tabular}
+
+\end{multicols}
+
+\section{Professional Certifications}
+
+\begin{description}
+\item[Placeholder 1] - Details
+\item[Placeholder 2] - Details
+\item[Placeholder 3] - Details
+\end{description}
+
+\end{document}
