@@ -20,6 +20,8 @@ The templates include:
 ## Screenshots
 ### generic_letter.tex:
 ![Generic_letter.tex](/images/screenshot_GL.png)
+### CV.tex:
+![CV.tex](/images/screenshot_CV.png)
 
 ## Built With
 
